@@ -1,0 +1,16 @@
+#id {
+  background-color: blueviolet;
+}
+
+.title {
+  color: green;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  border: 1px solid grey;
+  .hi{
+    color: aqua;
+  }
+}
