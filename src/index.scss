@@ -5,6 +5,95 @@
   height: 1080px;
   margin: auto;
   border: 1px solid #42567A;
+  position: relative;
+  .ellipse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    .circle {
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #777171;
+    }
+    
+    .circle:nth-child(1) {
+      top: 14%;
+      left: 85%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .circle:nth-child(2) {
+      top: 14%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .circle:nth-child(3) {
+      top: 50%;
+      right: 0%;
+      transform: translate(50%, -50%);
+    }
+    
+    .circle:nth-child(4) {
+      top: 86%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .circle:nth-child(5) {
+      bottom: 50%;
+      left: 0%;
+      transform: translate(-50%, 50%);
+    }
+    
+    .circle:nth-child(6) {
+      bottom: 14%;
+      right: 15%;
+      transform: translate(50%, 50%);
+    }
+    .active-circle {
+      width: 56px;
+      height: 56px;
+      background-color: #fffcfc;
+      border: 1px solid #303E58;
+      line-height: 55px;
+      text-align: center;
+      font-size: 26px;
+      font-family: "PT Sans", "Arial", sans-serif;
+      font-weight: bold;
+    }
+  }
+  .main-dates{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 160px;
+    width: 937px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 160px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    .left-date{
+      color: #EF5DA8;
+      margin-right: 3%;
+    }
+    .right-date{
+      color: #5D5FEF;
+      margin-left: 3%;
+    }
+  }
 }
 
 .swiper-wrapper{
@@ -51,26 +140,10 @@
     color: #42567A;
     margin: 0;
     margin-left: 100px;
-    padding-top: 170px;
-    
+    padding-top: 170px; 
   }
-  .main-dates{
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 200px;
-    font-weight: 700;
-    line-height: 160px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    margin: 0;
-    .left-date{
-      color: #EF5DA8;
-      margin-right: 3%;
-    }
-    .right-date{
-      color: #5D5FEF;
-      margin-left: 3%;
-    }
-  }
+
+  
   .change-dates-btn{
     height: 88px;
     width: 120px;
