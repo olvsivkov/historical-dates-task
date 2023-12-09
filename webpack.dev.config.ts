@@ -48,6 +48,11 @@ const config: Configuration = {
           }
         ]
       },
+      {
+        test: /\.json$/,
+        use: 'json-loader',
+        type: 'javascript/auto'
+      },
     ],
   },
   resolve: {

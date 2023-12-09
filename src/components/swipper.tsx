@@ -1,21 +1,18 @@
-
 import React from "react";
 import { Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-//import left from '../assets/left.png'
-//import right from '../assets/right.png'
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-
-function SwiperItems(){
+const SwiperItems: React.FC = () =>{
   return <div className="swiper-item">
-    <h5 className="swiper-item-title">2015</h5>
+    <h5 className="swiper-item-title"></h5>
     <p className="swiper-item-content">13 сентября — частное солнечное затмение, видимое в Южной Африке и части Антарктиды</p>
   </div>
 }
 
-function SwiperItem(): React.JSX.Element{
+const SwiperItem: React.FC = () =>{
+
   return (
     <Swiper
       modules={[Navigation, A11y]}
@@ -28,12 +25,12 @@ function SwiperItem(): React.JSX.Element{
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     > <div className="swiper-button-prev"></div>
-      <SwiperSlide><SwiperItems/></SwiperSlide>
-      <SwiperSlide><SwiperItems/></SwiperSlide>
-      <SwiperSlide><SwiperItems/></SwiperSlide>
-      <SwiperSlide><SwiperItems/></SwiperSlide>
-      <SwiperSlide><SwiperItems/></SwiperSlide>
-      <SwiperSlide><SwiperItems/></SwiperSlide>
+      <SwiperSlide><SwiperItems /></SwiperSlide>
+      <SwiperSlide><SwiperItems /></SwiperSlide>
+      <SwiperSlide><SwiperItems /></SwiperSlide>
+      <SwiperSlide><SwiperItems /></SwiperSlide>
+      <SwiperSlide><SwiperItems /></SwiperSlide>
+      <SwiperSlide><SwiperItems /></SwiperSlide>
       <div className="swiper-button-next btn-next"></div>
       ...
     </Swiper>
