@@ -1,11 +1,34 @@
 @import '~normalize.css';
 
+
+
 .main {
   max-width: 1440px;
-  height: 1080px;
+  max-height: 1080px;
+  height: 100vh;
   margin: auto;
-  border: 1px solid #42567A;
+  border: 1px solid #42567a2c;
   position: relative;
+  box-sizing: border-box;
+
+  .vertical-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 1px solid #42567A;
+    opacity: 10%;
+  }
+  .horizontal-line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px solid #42567A;
+    opacity: 10%;
+  }
   .ellipse {
     position: absolute;
     top: 50%;
@@ -13,7 +36,7 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid #42567a3a;
     background-color: transparent;
     transform: translate(-50%, -50%);
     .circle {
@@ -21,7 +44,7 @@
       width: 7px;
       height: 7px;
       border-radius: 50%;
-      background-color: #777171;
+      background-color: #020202;
     }
     
     .circle:nth-child(1) {
@@ -69,7 +92,15 @@
       font-size: 26px;
       font-family: "PT Sans", "Arial", sans-serif;
       font-weight: bold;
+      .active-span {
+        position: absolute;
+        top: 50%;
+        right: -80px;
+        transform: translateY(-50%);
+        z-index: 10000;
+      }
     }
+
   }
   .main-dates{
     position: absolute;
@@ -86,11 +117,11 @@
     margin: 0;
     transform: translate(-50%, -50%);
     .left-date{
-      color: #EF5DA8;
-      margin-right: 3%;
+      color: #5D5FEF;
+      margin-right: 5%;
     }
     .right-date{
-      color: #5D5FEF;
+      color: #EF5DA8;
       margin-left: 3%;
     }
   }
@@ -102,6 +133,7 @@
   gap: 5%;
   padding-left: 100px;
   padding-right: 100px;
+  height: 23%;
 
   .swiper-item{
     .swiper-item-title{
@@ -127,7 +159,7 @@
 }
 
 .historical-dates{
-  height: 841px;
+  height: 77%;
   width: 100%;
   position: relative;
   .historical-dates-title{
@@ -142,7 +174,14 @@
     margin-left: 100px;
     padding-top: 170px; 
   }
-
+  .historical-dates-title::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    height: 120px;
+    width: 7px;
+    background-image: linear-gradient(#3877EE, #EF5DA8);
+  }
   
   .change-dates-btn{
     height: 88px;
@@ -151,5 +190,10 @@
     padding-bottom: 5%;
     position: absolute;
     bottom: 0;
+    .change-btns{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5%;
+    }
   }
 }

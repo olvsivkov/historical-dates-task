@@ -13,19 +13,11 @@ const Circle: React.FC<CircleProps> = ({ active, onClick, text }) => {
       onClick={onClick}
     >
       {active ? (
-        <span
-          style={{
-            position: 'absolute',
-            top: '50%',
-            right: '-80px',
-            transform: 'translateY(-50%)',
-            zIndex: '10000',
-          }}
-        >
+        <span className="active-span">
           {text}
         </span>
       ) : (
-        <div />
+        <div></div>
       )}
     </div>
   );
@@ -39,12 +31,11 @@ function Ellipse (){
   };
 
   return (
-    <div className="App">
       <div className="ellipse">
       <Circle
           active={activeCircle === 0}
           onClick={() => handleCircleClick(0)}
-          text="Text 1"
+          text="Наука"
         />
         <Circle
           active={activeCircle === 1}
@@ -72,7 +63,6 @@ function Ellipse (){
           text="Text 7"
         />
       </div>
-    </div>
   );
 }
 export {Ellipse}

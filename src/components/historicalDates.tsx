@@ -1,6 +1,7 @@
 
 import React from "react";
-//import left from '../assets/left.png'
+import left from '../assets/left.png'
+import right from '../assets/right.png'
 
 function HistoricalDates(){
   return <div className="historical-dates">
@@ -8,9 +9,9 @@ function HistoricalDates(){
 
     <div className="change-dates-btn">
       <p>06/06</p>
-      <div>
-        <img src="../assets/left.png" alt="left btn" />
-        <img src="../assets/right.png" alt="right btn" />
+      <div className="change-btns">
+        <img src={left} alt="left btn" />
+        <img src={right} alt="right btn" />
       </div>
     </div>
   </div>
