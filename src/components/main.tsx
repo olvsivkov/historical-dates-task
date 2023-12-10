@@ -30,11 +30,12 @@ function Main(){
       <SwiperItem 
         count={count}
       />
-      <Ellipse/>
       <MainDates
         count={count}
+        />
+      <Ellipse
+        count={count}
       />
-      <button onClick={handleClickIncrement}>Click me</button>
   </div>
 }
 

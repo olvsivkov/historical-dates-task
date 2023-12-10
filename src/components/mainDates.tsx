@@ -8,7 +8,6 @@ interface ICount {
 function MainDates({count}: ICount){
 
   const initial = json.dates[count].dates
-  console.log(initial)
 
   return <div className="main-dates">
       <span className="left-date">{initial.date1}</span> 
