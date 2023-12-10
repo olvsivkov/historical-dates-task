@@ -31,7 +31,9 @@ function Main(){
         count={count}
       />
       <Ellipse/>
-      <MainDates/>
+      <MainDates
+        count={count}
+      />
       <button onClick={handleClickIncrement}>Click me</button>
   </div>
 }

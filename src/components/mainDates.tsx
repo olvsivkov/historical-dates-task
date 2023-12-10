@@ -1,9 +1,13 @@
 import React from "react";
 import json from "../DB/dataBase.json"
 
-function MainDates(){
+interface ICount {
+  count: number
+}
 
-  const initial = json.dates[0].dates
+function MainDates({count}: ICount){
+
+  const initial = json.dates[count].dates
   console.log(initial)
 
   return <div className="main-dates">
