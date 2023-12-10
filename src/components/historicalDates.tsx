@@ -2,7 +2,6 @@ import React from "react";
 import left from '../assets/left.png'
 import right from '../assets/right.png'
 
-
 type ChildProps = {
   onButtonClickIncrement: () => void
   onButtonClickDecrement: () => void
