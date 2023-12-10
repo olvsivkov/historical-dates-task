@@ -1,17 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { HistoricalDates } from "./historicalDates";
-import { Swiper } from "./swipper";
+import { SwiperItem } from "./swipper";
 import { Ellipse } from "./ellipse";
 import { MainDates } from "./mainDates";
 import {Lines} from "./lines"
 
+
+
 function Main(){
+  const [count, setCount] = useState(0);
+
+  const handleClickIncrement = () => {
+    const newCount = count + 1;
+    setCount(newCount > 5 ? 0: newCount);
+  };
+
+  const handleClickDecrement = () => {
+    const newCount = count - 1;
+    setCount(newCount < 0 ? 5: newCount);
+  };
+  
   return <div className="main">
-    <Lines/>
-    <HistoricalDates/>
-    <Swiper/>
-    <Ellipse/>
-    <MainDates/>
+      <Lines/>
+      <HistoricalDates 
+        onButtonClickIncrement={handleClickIncrement}
+        onButtonClickDecrement={handleClickDecrement}
+        count={count}
+      />
+      <SwiperItem 
+        count={count}
+      />
+      <Ellipse/>
+      <MainDates
+        count={count}
+      />
+      <button onClick={handleClickIncrement}>Click me</button>
   </div>
 }
 
