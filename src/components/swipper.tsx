@@ -16,7 +16,7 @@ interface ICount {
 }
 
 const SwiperItems: React.FC<Iitem> = ({text, year}) =>{
-  return <div className="swiper-item">
+  return <div className="swiper-item swiper-item-width">
     <h5 className="swiper-item-title">{year}</h5>
     <p className="swiper-item-content">{text}</p>
   </div>
@@ -27,6 +27,7 @@ const SwiperItem: React.FC<ICount> = ({count}) =>{
   const initial = json.dates[count].items
 
   return (
+    
     <Swiper
       modules={[Navigation, A11y]}
       spaceBetween={50}

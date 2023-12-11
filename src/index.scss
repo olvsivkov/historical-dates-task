@@ -1,7 +1,5 @@
 @import '~normalize.css';
 
-
-
 .main {
   max-width: 1440px;
   max-height: 1080px;
@@ -10,6 +8,7 @@
   border: 1px solid #42567a2c;
   position: relative;
   box-sizing: border-box;
+  user-select: none;
 
   .vertical-line::before {
     content: '';
@@ -20,6 +19,7 @@
     border-left: 1px solid #42567A;
     opacity: 10%;
   }
+  @media screen and (max-width: 966px) { .vertical-line::before { display: none; } }
   .horizontal-line::after {
     content: '';
     position: absolute;
@@ -29,6 +29,7 @@
     border-top: 1px solid #42567A;
     opacity: 10%;
   }
+  @media screen and (max-width: 966px) { .horizontal-line::after { display: none; } }
   .ellipse {
     position: absolute;
     top: 50%;
@@ -39,6 +40,7 @@
     border: 1px solid #42567a3a;
     background-color: transparent;
     transform: translate(-50%, -50%);
+    
     .circle {
       position: absolute;
       width: 7px;
@@ -116,20 +118,21 @@
     }
 
   }
+  @media screen and (max-width: 966px) { .ellipse { display: none; } }
   .main-dates{
     position: absolute;
     top: 50%;
     left: 50%;
     height: 160px;
-    width: 937px;
+    width: 95%;
     font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 200px;
+    font-size: 12vw;
     font-weight: 700;
     line-height: 160px;
     letter-spacing: -0.02em;
     text-align: center;
     margin: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
     .left-date{
       color: #5D5FEF;
       margin-right: 5%;
@@ -139,6 +142,8 @@
       margin-left: 3%;
     }
   }
+  @media screen and (max-width: 966px) { .main-dates { top: 35%; font-size: 15vw; } }
+  @media screen and (min-width: 1440px) { .main-dates { font-size: 200px; } }
 }
 
 .swiper-wrapper{
@@ -209,10 +214,18 @@
     padding-bottom: 5%;
     position: absolute;
     bottom: 0;
+    font-size: 25px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: #42567A;
     .change-btns{
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 5%;
+
+      .ch-btn{
+        cursor: pointer;
+      }
     }
   }
 }
+@media screen and (max-width: 960px) { .historical-dates { height: 57%; } }

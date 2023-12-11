@@ -1,4 +1,5 @@
-import React, { useState, useEffect }  from "react";
+import React, { useState, useEffect, useRef }  from "react";
+import gsap from 'gsap';
 
 interface CircleProps {
   active: boolean;
@@ -12,10 +13,21 @@ interface ICount {
 }
 
 const Circle: React.FC<CircleProps> = ({ active, onClick, text, number }) => {
+
+  const circleRef = useRef<HTMLDivElement>(null);
+
+  /*useEffect(() => {
+    if (active && circleRef.current) {
+      const { top, left } = circleRef.current.getBoundingClientRect();
+      gsap.fromTo(circleRef.current, { top, left }, { top: '85%', left: '14%', duration: 1, ease: 'power2.inOut' });
+    }
+  }, [active]);*/
+
   return (
     <div
       className={`circle ${active ? 'active-circle' : ''}`}
       onClick={onClick}
+      ref={circleRef}
     >
       
       {active ? (<div className="active-block">
@@ -32,20 +44,26 @@ const Circle: React.FC<CircleProps> = ({ active, onClick, text, number }) => {
 };
 
 function Ellipse ({count}: ICount){
+
   const [activeCircle, setActiveCircle] = useState<number>(count);
+
+  const divRef = useRef(null);
+  const rotateDiv = () => {
+    gsap.from(divRef.current, { rotation: '-=240', duration: 1, ease: 'power2.inOut' });
+  };
 
   useEffect(() => {
     setActiveCircle(count);
+    rotateDiv();
   }, [count]);
 
   const handleCircleClick = (index: number) => {
     setActiveCircle(index);
+    rotateDiv();
   };
- 
-
 
   return (
-      <div className="ellipse">
+      <div className="ellipse" ref={divRef}>
       <Circle
           active={(activeCircle) === 0}
           onClick={() => handleCircleClick(0)}
@@ -86,3 +104,5 @@ function Ellipse ({count}: ICount){
   );
 }
 export {Ellipse}
+
+
