@@ -9,6 +9,9 @@
   position: relative;
   box-sizing: border-box;
   user-select: none;
+  overflow-x: hidden;
+  /*@media screen and (max-width: 966px) { .main  { overflow-x: hidden; } }*/
+  
 
   .vertical-line::before {
     content: '';
@@ -142,17 +145,11 @@
       margin-left: 3%;
     }
   }
-  @media screen and (max-width: 966px) { .main-dates { top: 35%; font-size: 15vw; } }
+  @media screen and (max-width: 966px) { .main-dates { top: 35%; font-size: 15vw; line-height: 45px;} }
   @media screen and (min-width: 1440px) { .main-dates { font-size: 200px; } }
 }
 
-.swiper-wrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5%;
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 23%;
+.swiper{
 
   .swiper-item{
     .swiper-item-title{
@@ -176,6 +173,8 @@
     }
   }
 }
+@media screen and (min-width: 967px) { .swiper { width: 90% } }
+@media screen and (max-width: 966px) { .swiper { width: 830px } }
 
 .btn-next{
   height: 200px;
@@ -198,6 +197,7 @@
     margin-left: 100px;
     padding-top: 170px; 
   }
+  @media screen and (max-width: 966px) { .historical-dates-title { padding-top: 5%; width: 90%; margin: 0px auto; font-size: 9vw; line-height: 45px;} }
   .historical-dates-title::before {
     content: '';
     position: absolute;
@@ -217,15 +217,19 @@
     font-size: 25px;
     font-family: "PT Sans", "Arial", sans-serif;
     color: #42567A;
+    z-index: 999;
     .change-btns{
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 5%;
+      justify-items: center;
 
       .ch-btn{
+        padding-top: 30%;
         cursor: pointer;
       }
     }
   }
+  @media screen and (max-width: 960px) { .change-dates-btn { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; } }
 }
-@media screen and (max-width: 960px) { .historical-dates { height: 57%; } }
+@media screen and (max-width: 960px) { .historical-dates { height: 55%; } }
