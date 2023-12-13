@@ -4,3 +4,5 @@
 3. пройдите в папку сd historical-dates-task
 4. инициализируйте приложение git initial
 5. для запуска приложения на локальном сервере наберите npm start
+
+Ссылка на деплой проекта: "https://olvsivkov.github.io/historical-dates-task/build/"
