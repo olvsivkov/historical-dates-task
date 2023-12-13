@@ -15,8 +15,8 @@ function HistoricalDates({onButtonClickIncrement, onButtonClickDecrement, count}
     <div className="change-dates-btn">
       <p>0{count+1}/06</p>
       <div className="change-btns">
-        <img src={left} alt="left btn" onClick={onButtonClickDecrement}/>
-        <img src={right} alt="right btn" onClick={onButtonClickIncrement}/>
+        <img className="ch-btn" src={left} alt="left btn" onClick={onButtonClickDecrement}/>
+        <img className="ch-btn" src={right} alt="right btn" onClick={onButtonClickIncrement}/>
       </div>
     </div>
   </div>

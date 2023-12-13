@@ -1,8 +1,10 @@
 import React from "react";
-import { Navigation, A11y } from 'swiper/modules';
+import { Navigation, A11y, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/swiper-bundle.css';
+
 import json from "../DB/dataBase.json"
 
 interface Iitem {
@@ -16,7 +18,7 @@ interface ICount {
 }
 
 const SwiperItems: React.FC<Iitem> = ({text, year}) =>{
-  return <div className="swiper-item">
+  return <div className="swiper-item swiper-item-width">
     <h5 className="swiper-item-title">{year}</h5>
     <p className="swiper-item-content">{text}</p>
   </div>
@@ -28,13 +30,14 @@ const SwiperItem: React.FC<ICount> = ({count}) =>{
 
   return (
     <Swiper
-      modules={[Navigation, A11y]}
+      modules={[Navigation, A11y, Pagination]}
       spaceBetween={50}
       slidesPerView={3}
       navigation={{
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
       }}
+      pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     > <div className="swiper-button-prev"></div>
@@ -49,5 +52,6 @@ const SwiperItem: React.FC<ICount> = ({count}) =>{
     </Swiper>
   );
 };
+
 
 export {SwiperItem}

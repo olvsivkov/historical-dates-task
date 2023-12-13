@@ -9,6 +9,10 @@ import {Lines} from "./lines"
 
 function Main(){
   const [count, setCount] = useState(0);
+  
+  const handleClickEllipseComponents = (arg: number) => {
+    setCount(arg)
+  }
 
   const handleClickIncrement = () => {
     const newCount = count + 1;
@@ -30,11 +34,13 @@ function Main(){
       <SwiperItem 
         count={count}
       />
-      <Ellipse/>
       <MainDates
         count={count}
+        />
+      <Ellipse
+        count={count}
+        handleClickEllipseComponents={handleClickEllipseComponents}
       />
-      <button onClick={handleClickIncrement}>Click me</button>
   </div>
 }
 

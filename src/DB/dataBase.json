@@ -7,36 +7,37 @@
       "date1": "1985",
       "date2": "1990"
     },
+    "themes":"Наука",
     "items": [
       {
         "id": 1,
         "year": "1985",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.."
+        "text": "Элайас Джеймс Кори (1985): Элайас Джеймс Кори был удостоен премии За развитие теории методологии органического синтеза за свою работу в области химии"
       },
       {
         "id": 2,
-        "year": "1986",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "1990",
+        "text": "Клавадия Александровна Бархатова была советским астрономом, известным своими наблюдениями и исследованиями в области астрономии. "
       },
       {
         "id": 3,
-        "year": "1987",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "1990",
+        "text": "Ван Ань - инженер по вычислительной технике и изобретатель, основатель компьютерной компании Wang Laboratories. Он был удостоен премии За открытия в области информатики. "
       },
       {
         "id": 4,
         "year": "1988",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ."
+        "text": " Беррес Фредерик Скиннер был профессором психологии Гарвардского университета и создателем практики экспериментального анализа поведения и философии радикального бихевиоризма"
       },
       {
         "id": 5,
         "year": "1989",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices."
+        "text": "Преобразование Фурье: Математический процесс, позволяет исследователям делать выводы о периодичности и амплитуде функции на основе её значений на некоторых других значениях"
       },
       {
         "id": 6,
         "year": "1990",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.. "
+        "text": "Группа ученых,из Стэнфордского университета, разработала современные модели климата"
       }
     ]
   },
@@ -47,36 +48,37 @@
       "date1": "1990",
       "date2": "1995"
     },
+    "themes":"История",
     "items": [
       {
         "id": 7,
         "year": "1990",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "text": "Падение Берлинской стены (1990): Берлинская стена, разделявшая Германию на две части, была разрушена в результате массовых протестов и демонстраций"
       },
       {
         "id": 8,
-        "year": "1991",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "1990",
+        "text": "Нобелевская премия мира (1990): Нобелевскую премию мира получила американская гражданская правозащитница Элеонора Рузвельт"
       },
       {
         "id": 9,
-        "year": "1992",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices."
+        "year": "1990",
+        "text": "В результате подписания Соглашения о создании Европейского союза, была создана Единая Европа, объединяющая страны Европы в экономическом и политическом смысле"
       },
       {
         "id": 10,
-        "year": "1993",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "year": "1990",
+        "text": " Тим Бернерс-Ли создал первый веб-сайт, который был доступен в Интернете"
       },
       {
         "id": 11,
-        "year": "1994",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "1990",
+        "text": "Нельсон Мандела, лидер антиапартеидного движения, был освобожден после 27 лет тюремного заключения"
       },
       {
         "id": 12,
-        "year": "1995",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "year": "1991",
+        "text": "Распад СССР (1991): В результате политических и экономических кризисов, СССР распался на 15 независимых государств"
       }
     ]
   },
@@ -87,36 +89,37 @@
       "date1": "1995",
       "date2": "2000"
     },
+    "themes":"Литература",
     "items": [
       {
         "id": 13,
-        "year": "1995",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "1997",
+        "text": "Гарри Поттер и философский камень\" (1997): Роман британской писательницы Джоан Роулинг, первая книга в серии о Гарри Поттере, рассказывает о приключениях юного волшебника"
       },
       {
         "id": 14,
         "year": "1996",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "text": "Американский психопат\": Роман Брета Истона, повествующий о жизни психопата Патрика Бейтмена в Нью-Йорке 1980-х годов"
       },
       {
         "id": 15,
         "year": "1997",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  "
+        "text": "Мост через вечность\": Роман Ричарда Баха, рассказывает о приключениях пилота, который попадает в альтернативную реальность"
       },
       {
         "id": 16,
         "year": "1998",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices."
+        "text": "Ангелы и демоны\" (2000): Роман Дэна Брауна, повествующий о приключениях профессора Роберта Лэнгдона в Риме"
       },
       {
         "id": 17,
-        "year": "1999",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "year": "1998",
+        "text": "Маленький принц\" (1998): Роман Антуана де Сент-Экзюпери, повествующий о приключениях маленького принца на разных планетах"
       },
       {
         "id": 18,
         "year": "2000",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "text": "2000 году вышел роман \"Большая пайка\" Юлия Дубова, который получил широкое признание читателей и критиков"
       }
     ]
   },
@@ -127,36 +130,38 @@
       "date1": "2000",
       "date2": "2005"
     },
+    "themes":"Искусство",
     "items": [
       {
         "id": 19,
-        "year": "2000",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "2001",
+        "text": "\"Лебединое озеро\" (2001): Балет Петра Ильича Чайковского, в постановке Юрия Григоровича, был восстановлен в Большом театре после реконструкции"
       },
       {
         "id": 20,
-        "year": "2001",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "year": "2005",
+        "text": "\"Мастер и Маргарита\" (2005): Телесериал, созданный по мотивам романа Михаила Булгакова, рассказывает о приключениях Мастера и Маргариты в Москве 1930-х годов"
       },
       {
         "id": 21,
-        "year": "2002",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "2001",
+        "text": "\"Русский Букер\" (2001): Литературная премия, учрежденная в 1992 году, была присуждена в 2001 году писателю Владимиру Маканину за роман \"Кружева"
       },
       {
         "id": 22,
-        "year": "2003",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "2000",
+        "text": "\"Дебют\" (2000): Литературная премия, учрежденная в 1999 году, была присуждена в 2000 году писателю Андрею Геласимову за роман \"Черный спектр\""
+
       },
       {
         "id": 23,
-        "year": "2004",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices."
+        "year": "2002",
+        "text": "\"Лицей\" (2002): Литературная премия, учрежденная в 2001 году, была присуждена в 2002 году писателю Сергею Шаргунову за роман \"Рассказы о Петербурге\""
       },
       {
         "id": 24,
-        "year": "2005",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "year": "2002",
+        "text": "\"Дом, в котором...\" (2002): Выставка современного искусства, проходившая в Государственном Русском музее в Санкт-Петербурге, была посвящена теме дома и быта в искусстве"
       }
     ]
   },
@@ -167,36 +172,37 @@
       "date1": "2005",
       "date2": "2010"
     },
+    "themes":"Люди",
     "items": [
       {
         "id": 25,
         "year": "2005",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "text": "Валерий Герясов (2005): Валерий Герясов стал генеральным директором международного авиационного салона \"Москва\" в 2005 году и занимал эту позицию до 2010 года. "
       },
       {
         "id": 26,
-        "year": "2006",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "2005",
+        "text": "Армандо Ианнуччи (2005): Армандо Ианнуччи, итальянский режиссер, был назначен главным режиссером 67-го Канского кинофестиваля в 2005 году."
       },
       {
         "id": 27,
-        "year": "2007",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "year": "2006",
+        "text": "Виталий Манук (2006): Виталий Манук стал главным редактором российского журнала \"Титаник\" в 2006 году и занимал эту позицию до 2010 года."
       },
       {
         "id": 28,
-        "year": "2008",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices.  "
+        "year": "2005",
+        "text": "Анна Эткина (2005): Анна Эткина, российская актриса, была удостоена премии \"Звезда\" в 2005 году."
       },
       {
         "id": 29,
-        "year": "2009",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ."
+        "year": "2005",
+        "text": "Сергей Козлов (2005): Сергей Козлов стал главным редактором российского литературного журнала \"Знак\" в 2005 году и занимал эту позицию до 2010 года."
       },
       {
         "id": 30,
-        "year": "2010",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices. "
+        "year": "2005",
+        "text": "Антон Байрак (2005): Антон Байрак, российский политик, был назначен министром экономического развития и торговли России в 2005 году."
       }
     ]
   },
@@ -207,36 +213,37 @@
       "date1": "2010",
       "date2": "2015"
     },
+    "themes":"Медицина",
     "items": [
       {
         "id": 31,
-        "year": "2010",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices.  "
+        "year": "2014",
+        "text": "Инсулинотный инъектор (2014): Ученые разработали инсулинотный инъектор, который помогает людям с диабетом контролировать уровень сахара в крови"
       },
       {
         "id": 32,
-        "year": "2011",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "year": "2015",
+        "text": "Противоопухолевые препараты (2015): Ученые продолжали исследования и разработку противоопухолевых препаратов, которые помогают лечить и предотвращать развитие онкологических заболеваний"
       },
       {
         "id": 33,
-        "year": "2012",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices."
+        "year": "2010",
+        "text": "Генетическая инженерия (2010): Ученые сделали значительный прорыв в области генетической инженерии, что позволило им изменять и улучшать генотические материалы для лечения различных заболеваний"
       },
       {
         "id": 34,
-        "year": "2013",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "year": "2015",
+        "text": "Иммунотерапия (2015): Иммунотерапия стала более распространенным методом лечения рака, включая онкологии головного мозга, благодаря развитию новой терапии"
       },
       {
         "id": 35,
-        "year": "2014",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "year": "2010",
+        "text": "Терапия регенерации (2010): Ученые сделали прорыв в области терапии регенерации, что позволило лечить и предотвращать развитие хронических заболеваний, таких как диабет и сердечно-сосудистые заболевания"
       },
       {
         "id": 36,
         "year": "2015",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "text": "Использование стволовых клеток (2015): Ученые начали использовать стволовые клетки для лечения различных заболеваний, таких как мозговой рак, благодаря развитию новой методики лечения."
       }
     ]
   }
