@@ -10,8 +10,8 @@
   box-sizing: border-box;
   user-select: none;
   overflow-x: hidden;
-  /*@media screen and (max-width: 966px) { .main  { overflow-x: hidden; } }*/
-  
+  overflow-y: hidden;
+ 
 
   .vertical-line::before {
     content: '';
@@ -135,7 +135,8 @@
     letter-spacing: -0.02em;
     text-align: center;
     margin: 0;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%, -50%); 
+
     .left-date{
       color: #5D5FEF;
       margin-right: 5%;

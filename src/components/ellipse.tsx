@@ -9,19 +9,13 @@ interface CircleProps {
 }
 
 interface ICount {
-  count: number
+  count: number;
+  handleClickEllipseComponents: (arg: number) => void
 }
 
 const Circle: React.FC<CircleProps> = ({ active, onClick, text, number }) => {
 
   const circleRef = useRef<HTMLDivElement>(null);
-
-  /*useEffect(() => {
-    if (active && circleRef.current) {
-      const { top, left } = circleRef.current.getBoundingClientRect();
-      gsap.fromTo(circleRef.current, { top, left }, { top: '85%', left: '14%', duration: 1, ease: 'power2.inOut' });
-    }
-  }, [active]);*/
 
   return (
     <div
@@ -43,14 +37,16 @@ const Circle: React.FC<CircleProps> = ({ active, onClick, text, number }) => {
   );
 };
 
-function Ellipse ({count}: ICount){
+function Ellipse ({count, handleClickEllipseComponents}: ICount){
 
   const [activeCircle, setActiveCircle] = useState<number>(count);
 
   const divRef = useRef(null);
   const rotateDiv = () => {
-    gsap.from(divRef.current, { rotation: '-=240', duration: 1, ease: 'power2.inOut' });
+    gsap.from(divRef.current, { rotation: '+=360', duration: 2, ease: 'power2.inOut' });
   };
+
+  
 
   useEffect(() => {
     setActiveCircle(count);
@@ -59,6 +55,7 @@ function Ellipse ({count}: ICount){
 
   const handleCircleClick = (index: number) => {
     setActiveCircle(index);
+    handleClickEllipseComponents(index)
     rotateDiv();
   };
 
@@ -103,6 +100,8 @@ function Ellipse ({count}: ICount){
       </div>
   );
 }
+
+
 export {Ellipse}
 
 

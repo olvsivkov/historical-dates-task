@@ -9,6 +9,10 @@ import {Lines} from "./lines"
 
 function Main(){
   const [count, setCount] = useState(0);
+  
+  const handleClickEllipseComponents = (arg: number) => {
+    setCount(arg)
+  }
 
   const handleClickIncrement = () => {
     const newCount = count + 1;
@@ -35,6 +39,7 @@ function Main(){
         />
       <Ellipse
         count={count}
+        handleClickEllipseComponents={handleClickEllipseComponents}
       />
   </div>
 }
